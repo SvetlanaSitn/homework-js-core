@@ -18,3 +18,8 @@ alert(`Square perimeter is ${length * 4}!`);
 //* * 4.
 let radius = prompt("Please, enter the radius of the circle!", "");
 alert(`The area of a circle is ${Math.PI * radius ** 2}!`);
+
+//* * 5.
+let distanceToGet = prompt("Please, enter distance in km between two cities!", "");
+let hoursToGet = prompt("Please, enter expected time in hours!", "");
+alert(`Your necessary speed to get on time is about ${Math.round(distanceToGet / hoursToGet)} km/h.`); //? округление до ближайшего целого
