@@ -29,7 +29,7 @@ btnPrev.addEventListener('click', ()=>{
 });
 
 imgSlide.addEventListener('transitionend', () => {
-    if (img[counter].id === 'lastCLone') {
+    if (img[counter].id === 'lastClone') {
         imgSlide.style.transition = "none";
         counter = img.length - 2;
         imgSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
